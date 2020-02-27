@@ -5,16 +5,16 @@
 
 <script>
 var url = purl();
-if (url.attr('host') == 'cz5h.com') {
+if (url.attr('host') == 'zonelyn.com') {
     var old_url = url.attr('source');
-    var new_url = old_url.replace('cz5h.com', "www.zonelyn.com");
+    var new_url = old_url.replace('zonelyn.com', "www.cz5h.com");
     window.location.replace(new_url); 
-}else if (url.attr('host') == 'www.cz5h.com') {
+}else if (url.attr('host') == 'www.zonelyn.com') {
     var old_url = url.attr('source');
-    var new_url = old_url.replace('www.cz5h.com', "www.zonelyn.com");
+    var new_url = old_url.replace('www.zonelyn.com', "www.cz5h.com");
     window.location.replace(new_url);
 }else {
-    window.location.href="https://www.zonelyn.com";
+    window.location.href="https://www.cz5h.com";
 }
 
     
